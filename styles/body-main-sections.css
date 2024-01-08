@@ -1,3 +1,6 @@
+button:hover {
+  transform: translate(2px, 2px);
+}
 /* Section 1 */
 .sec1 {
   font-family: "Inter", sans-serif;
@@ -33,25 +36,83 @@
   border-radius: 16px;
   margin: auto;
   display: flex;
+  justify-content: space-between;
   color: #fff;
-  /* padding: 126px 40px 142px 126px; */
+  align-items: center;
 }
-.sec2 h2{
-  color: #FFF;
+.sec2 h2 {
+  color: #fff;
   font-family: Merriweather;
   font-size: 64px;
-  font-style: normal;
   font-weight: 900;
-  line-height: 88px; /* 137.5% */
+  line-height: 88px;
   letter-spacing: 7.04px;
+  width: 642px;
+  padding-left: 126px;
+  /* padding-right: 552px; */
+}
+.sec2 p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 697px;
+  padding-left: 126px;
+}
+.sec2 button {
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  padding-left: 126px;
+}
+.sec2 button:hover {
+  color: #f00;
+  font-weight: 900;
+  transition: font-weight 0.1s, transform 0.1s;
 }
 .sec2 img {
-  /* display: flex; */
-width: 319.83px;
-height: 464.662px;
-/* padding: 0.008px 0px 0px 0px; */
-/* flex-direction: column; */
-/* justify-content: center; */
-/* align-items: center; */
-/* flex-shrink: 0; */
+  width: 319.83px;
+  height: 464.662px;
+  padding-right: 126px;
+}
+
+/* Section 3 */
+.sec3 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 1320px;
+  height: 482px;
+  margin: auto;
+  margin-top: 120px;
+  text-align: center;
+  font-family: Inter;
+  padding-top: 100px;
+}
+.sec3 p {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.sec3 .highlight {
+  color: #f00;
+}
+.sec3 button {
+  background: #f00;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 32px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 48px;
+  transition: transform 0.01s;
 }
