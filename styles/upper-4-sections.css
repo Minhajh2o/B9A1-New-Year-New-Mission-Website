@@ -91,8 +91,8 @@ button:hover {
   );
   width: 1320px;
   height: 482px;
-  margin: auto;
-  margin-top: 120px;
+  border-radius: 16px;
+  margin: 120px auto;
   text-align: center;
   font-family: Inter;
   padding-top: 100px;
@@ -114,5 +114,74 @@ button:hover {
   font-size: 20px;
   font-weight: 700;
   margin-top: 48px;
-  transition: transform 0.01s;
+}
+.sec3 button:hover {
+  background-color: #fff;
+  color: #f00;
+  border: 2px solid #f00;
+  transition: transform 0.1s;
+}
+/* Section 4 */
+.sec4 {
+  font-family: Inter;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 100px; */
+  margin: 0 100px;
+  background-color: aquamarine;
+}
+.sec4 .part1 h6 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 0%;
+}
+.sec4 .part1 h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 0%;
+}
+.sec4 .part1 p {
+  width: 393px;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.sec4 .part2 {
+  position: relative;
+  width: 100%; /* Make the container full-width */
+  height: 100%; /* Make the container full-height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec4 .part2 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 15px solid #f00;
+  padding: 5%;
+}
+
+.sec4 .part3 h3 {
+  color: #f00;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 0;
+}
+.sec4 .part3 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 276px;
+}
+.sec4 .part3 img {
+  width: 140px;
+  height: 140px;
+  /* padding-top: 50px; */
 }
