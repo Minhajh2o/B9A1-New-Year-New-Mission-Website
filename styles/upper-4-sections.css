@@ -127,9 +127,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 0 100px; */
   margin: 0 100px;
-  background-color: aquamarine;
 }
 .sec4 .part1 h6 {
   color: #f00;
@@ -152,12 +150,10 @@ button:hover {
   line-height: 32px;
 }
 .sec4 .part2 {
-  position: relative;
-  width: 100%; /* Make the container full-width */
-  height: 100%; /* Make the container full-height */
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
-  align-items: center;
+  width: 33%;
 }
 .sec4 .part2 img {
   width: 300px;
@@ -166,7 +162,9 @@ button:hover {
   border: 15px solid #f00;
   padding: 5%;
 }
-
+.sec4 .part3{
+  padding-left: 100px;
+}
 .sec4 .part3 h3 {
   color: #f00;
   font-size: 48px;
@@ -183,5 +181,4 @@ button:hover {
 .sec4 .part3 img {
   width: 140px;
   height: 140px;
-  /* padding-top: 50px; */
 }

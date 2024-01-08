@@ -1,0 +1,32 @@
+/* Section 5 */
+.sec5 {
+  font-family: Inter;
+  margin: 120px;
+}
+.sec5 .content {
+  text-align: center;
+}
+.sec5 .content h6 {
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+}
+.sec5 .content h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 0%;
+}
+.sec5 .content h1 span {
+  color: #f00;
+  font-size: 72px;
+  font-weight: 900;
+}
+.sec5 .content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 126px;
+  padding-right: 126px;
+}
