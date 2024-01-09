@@ -13,8 +13,15 @@ footer .upper-section {
   align-items: center;
   margin-bottom: 50px;
 }
-footer .upper-section .contact {
-  padding-left: 400px;
+footer .upper-section .contacts {
+  padding-right: 130px;
+}
+footer .upper-section .contacts div {
+    display: flex;
+    gap: 10px;
+}
+footer .upper-section .contacts .icon{
+    padding-top: 5px;
 }
 footer .middle-section {
   margin: 48px auto;
@@ -22,6 +29,10 @@ footer .middle-section {
 }
 footer .middle-section a {
   margin: 0px 24px;
+}
+footer .middle-section img:hover {
+  transform: scale(1.1);
+  transition: 0.1s;
 }
 footer .last-section {
   margin-top: 50px;
@@ -32,4 +43,20 @@ footer .last-section {
 footer hr {
   height: 1px;
   border-color: rgba(255, 255, 255, 0.15);
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+footer a:hover {
+  color: blue;
+  font-weight: 600;
+  transform: translate(2px, 2px);
+
+  transition: font-weight 0.3s, transform 0.3s;
+}
+footer .last-section a:hover {
+  color: red;
+  font-weight: 600;
+  transition: font-weight 0.3s, transform 0.3s;
 }

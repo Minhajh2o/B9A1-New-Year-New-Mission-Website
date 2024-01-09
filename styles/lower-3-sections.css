@@ -26,7 +26,7 @@
 }
 .sec5 .images {
   position: relative;
-  margin-top: 160px;
+  margin-top: 100px;
 }
 
 .sec5 .images .image1 {
@@ -58,16 +58,15 @@
 }
 
 /* Section 6 */
-.sec6 {
-  /* margin: auto; */
-}
+
 .sec6 .portfolio p {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px; /* 160% */
-  width: 896px;
+  width: 870px;
+  text-align: justify;
 }
 .portfolio-images {
   display: grid;
