@@ -1,0 +1,35 @@
+footer {
+  height: 609px;
+  background: #070211;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  padding: 120px;
+}
+footer .upper-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+footer .upper-section .contact {
+  padding-left: 400px;
+}
+footer .middle-section {
+  margin: 48px auto;
+  text-align: center;
+}
+footer .middle-section a {
+  margin: 0px 24px;
+}
+footer .last-section {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer hr {
+  height: 1px;
+  border-color: rgba(255, 255, 255, 0.15);
+}

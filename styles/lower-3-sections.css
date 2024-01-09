@@ -17,7 +17,6 @@
 }
 .sec5 .content h1 span {
   color: #f00;
- 
 }
 .sec5 .content p {
   color: rgba(7, 2, 17, 0.6);
@@ -49,7 +48,6 @@
   right: 0px;
   z-index: 1;
   bottom: 220px;
-  
 }
 .sec5 .images .image4 {
   width: 100%;
@@ -60,11 +58,11 @@
 }
 
 /* Section 6 */
-.sec6{
-/* margin: auto; */
+.sec6 {
+  /* margin: auto; */
 }
-.sec6 .portfolio p{
-  color: rgba(7, 2, 17, 0.60);
+.sec6 .portfolio p {
+  color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
@@ -74,7 +72,7 @@
 .portfolio-images {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 24px;
 }
 
 .grid-item {
@@ -94,3 +92,45 @@
   transform: scale(1.2);
 }
 /* Section 7 */
+.sec7 {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  height: 616px;
+  margin: 120px auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.sec7 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 896px;
+  padding: 0 212px 0 212px;
+}
+.sec7 input {
+  height: 75px;
+  border: none;
+}
+.sec7 input[type="email"] {
+  width: 500px;
+  border-radius: 50px 0 0 50px;
+  color: rgba(7, 2, 17, 0.3);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.sec7 input[type="submit"] {
+  width: 210px;
+  border-radius: 0 50px 50px 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: -5px;
+}
+.sec7 input[type="submit"]:hover {
+  transform: scale(1.1);
+}
