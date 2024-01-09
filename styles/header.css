@@ -1,3 +1,4 @@
+
 header {
   font-family: "Merriweather", serif;
   width: 1320px;
@@ -10,17 +11,15 @@ header {
   text-align: center;
 }
 
-header p {
+header h4 {
   color: #fff;
   font-size: 32px;
   font-weight: 400;
   padding-top: 135px;
 }
 
-header h1 {
+  header h1{
   color: #fff;
-  font-size: 72px;
-  font-weight: 900;
   width: 632px;
   padding-left: 344px;
 }

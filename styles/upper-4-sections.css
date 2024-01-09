@@ -1,44 +1,67 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+main {
+  width: 1320px;
+  margin: auto;
+}
+h1 {
+  font-size: 72px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+}
+h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 0%;
+}
+h6 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
 button:hover {
+  cursor: pointer;
   transform: translate(2px, 2px);
 }
 /* Section 1 */
 .sec1 {
-  font-family: "Inter", sans-serif;
+  margin: 120px auto;
   text-align: center;
 }
 .sec1 h1 {
   color: #f00;
   font-size: 88px;
   font-weight: 700;
-}
-.sec1 p {
-  color: #f00;
-  font-size: 24px;
-  font-weight: 500;
+  line-height: 0%;
 }
 .sec1 h3 {
   color: #070211;
+  font-family: Inter;
   font-size: 48px;
   font-weight: 700;
+  padding-bottom: 50px;
 }
-.sec1 img {
+/* .sec1 img {
   width: 802.9px;
   height: 500px;
-  margin-bottom: 120px;
-}
+} */
 
 /* Section 2 */
 .sec2 {
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../resources/Vectorrr.png") no-repeat center/cover;
-  width: 1320px;
-  height: 600px;
+  /* width: 1320px; */
+  color: #fff;
   border-radius: 16px;
-  margin: auto;
+  height: 600px;
   display: flex;
   justify-content: space-between;
-  color: #fff;
   align-items: center;
+  padding-right: 126px;
+  padding-left: 126px;
 }
 .sec2 h2 {
   color: #fff;
@@ -48,39 +71,30 @@ button:hover {
   line-height: 88px;
   letter-spacing: 7.04px;
   width: 642px;
-  padding-left: 126px;
-  /* padding-right: 552px; */
 }
 .sec2 p {
   color: rgba(255, 255, 255, 0.8);
-  font-family: Inter;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  width: 697px;
-  padding-left: 126px;
+  width: 650px;
 }
 .sec2 button {
   background-color: transparent;
   color: #fff;
-  text-align: center;
-  font-family: Inter;
   font-size: 20px;
   font-weight: 700;
   border: none;
-  cursor: pointer;
-  padding-left: 126px;
 }
 .sec2 button:hover {
   color: #f00;
   font-weight: 900;
   transition: font-weight 0.1s, transform 0.1s;
 }
-.sec2 img {
+/* .sec2 img {
   width: 319.83px;
   height: 464.662px;
-  padding-right: 126px;
-}
+} */
 
 /* Section 3 */
 .sec3 {
@@ -89,15 +103,13 @@ button:hover {
     rgba(255, 0, 0, 0.1) 0%,
     rgba(255, 0, 0, 0) 100%
   );
-  width: 1320px;
   height: 482px;
   border-radius: 16px;
   margin: 120px auto;
   text-align: center;
-  font-family: Inter;
   padding-top: 100px;
 }
-.sec3 p {
+.sec3 h4 {
   font-size: 32px;
   font-weight: 600;
   line-height: 40px;
@@ -127,20 +139,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 100px;
-}
-.sec4 .part1 h6 {
-  color: #f00;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 0%;
-}
-.sec4 .part1 h3 {
-  color: #070211;
-  font-family: Merriweather;
-  font-size: 48px;
-  font-weight: 900;
-  line-height: 0%;
+  /* margin: 0 100px; */
 }
 .sec4 .part1 p {
   width: 393px;
@@ -153,7 +152,8 @@ button:hover {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
-  width: 33%;
+  /* width: 33%; */
+  padding-right: 100px;
 }
 .sec4 .part2 img {
   width: 300px;
@@ -162,11 +162,12 @@ button:hover {
   border: 15px solid #f00;
   padding: 5%;
 }
-.sec4 .part3{
-  padding-left: 100px;
+.sec4 .part3 {
+  /* padding-left: 100px; */
 }
 .sec4 .part3 h3 {
   color: #f00;
+  font-family: Inter;
   font-size: 48px;
   font-weight: 700;
   line-height: 0;
@@ -178,7 +179,7 @@ button:hover {
   line-height: 32px;
   width: 276px;
 }
-.sec4 .part3 img {
+/* .sec4 .part3 img {
   width: 140px;
   height: 140px;
-}
+} */
