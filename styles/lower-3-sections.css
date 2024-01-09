@@ -24,8 +24,6 @@
 }
 
 .sec5 .content p {
-  color: rgba(7, 2, 17, 0.6);
-  font-size: 20px;
   font-weight: 500;
   padding: 0 126px;
 }
@@ -67,11 +65,6 @@
 /* Section 6 */
 
 .sec6 .portfolio p {
-  color: rgba(7, 2, 17, 0.6);
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 32px;
   width: 870px;
   text-align: justify;
 }
@@ -111,10 +104,6 @@
 }
 
 .sec7 p {
-  color: rgba(7, 2, 17, 0.6);
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 32px;
   width: 896px;
   padding: 0 212px 0 212px;
 }
