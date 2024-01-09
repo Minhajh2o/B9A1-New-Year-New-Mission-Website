@@ -30,3 +30,37 @@
   padding-left: 126px;
   padding-right: 126px;
 }
+.sec5 .images {
+  position: relative;
+  margin-top: 100px;
+}
+
+.sec5 .images .image1 {
+  position: relative;
+  left: 20px;
+  width: 60%;
+  z-index: 3;
+  bottom: 30px;
+}
+.sec5 .images .image2 {
+  position: relative;
+  right: 75px;
+  /* left: px; */
+  z-index: 2;
+  bottom: 275px;
+}
+.sec5 .images .image3 {
+  position: absolute;
+  right: 0px;
+  z-index: 1;
+  bottom: 220px;
+  
+}
+.sec5 .images .image4 {
+  width: 100%;
+  height: 220px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  /* margin: 0; */
+}
